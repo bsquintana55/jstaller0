@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+} 
+ 
+*{
+    margin:0;
+}
+body{
+    font-family: 'Marcellus', serif;
+    font-size: 16px;
+}
+ 
+  h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333333;
+      font-family: 'Marcellus', serif;
+      font-size: 1.3em;
+      padding: 1rem;
+}.item button {
+      color: white;
+      font-size: 1em;
+    
+      background-color: #337AB7;
+      padding: 0.5rem;
+  }
+nav a{
+      color: var(--blanco);
+      text-decoration: none;
+      padding: 1rem;
+      transition: .5s all ease;
+      
+}
+nav a:hover{
+      background-color:#0e004e;
+      width: 100%;
+}
+
+.logo img{
+      height: 3rem;     
+}
+#features{
+      background: url(../img/bg-features.png);
+      color: white;
+      padding-top: 1rem;
+}.features-title{
+      background-color: rgba(0, 0, 0, 0.342);
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1.5rem;
+}.features-description{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+}.feature{
+      width: 25%;
+      min-width: 180px;
+      max-width: 230px;
+      margin: 0.8rem;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+}.feature i{
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+}.feature-blue{
+      background-color: rgba(9, 53, 104, 0.493);
+}.feature-black{
+      background-color: rgba(0, 0, 0, 0.699);
+}.logo{
+      background-color: #333333;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+}
+.slider img{
+      width: 100%;
+      height: 100%;
+}.contenido{
+      width: 100%;
+      height: 100%;
+      position: relative;
+}#textosl p{
+      position: absolute;
+      margin-top: -16%;
+      font-family: 'Marcellus', serif;
+      font-size: 3em;
+      background-color: rgb(29 21 21 / 44%);
+      color: white;
+      width: 100%;
+      height: 37%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row wrap;
+      padding-left: 1em;
+     
+
+}
+.informacion{
+      width: 100%;
+      height: 100%;  
+      display: flex;
+      justify-content: space-around;  
+
+}.text-log{
+      margin: 2.5em;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}#texto-hijo{
+      font-size: 1.1em;
+      width: 45%;
+}#logohotelia img{
+      width: 65%;
+      height: 65%;
+      padding-right: 68%;
+   
+}#logohotelia{     
+      display: flex;
+      justify-content: center;
+}.tit h1{
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+      font-size: 3em;
+}.mapa {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+}.mapa iframe{
+      width: 100%;
+}.direccion h3{
+
+      font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+}.linea{
+      display: flex;
+      justify-content: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      background-color: #337AB7;
+      width: 50%;
+      height: 0.1em;
+      
+}.direccion{
+      padding: 2em;
+ }.titulo h1{
+      margin-bottom: 2%;
+ }.footer-container{
+      background-color: var(--negro);
+      color: white;
+      padding: 2%;
+}
+.footer-container .text-footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.2em;
+      height: 100%;
+      width: 100%;
+}
+.text.t{
+      width: 25%;
+
+      
+}.icons{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      
+      
+}.icons div{
+      display:flex;
+      padding: 2%;
+      
+}.text t3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2%;
+      
+      
+}
+
+
+
+
+
+/*CARDS*/
+
+ 
+
+
+.titulo{
+      display: flex;
+      justify-content: center;
+      background-color: #1f1e1e;
+      align-items: center;
+      color: white;
+      height: 6.5em;
+      font-size: 2em;
+      margin-top: 3rem;
+  }
+  
+  
+  
+  .titulo h1{
+      font-size: 3.6rem;
+      font-weight: 300;
+  }
+  
+  
+  #calificacion{
+      height: 30em;
+  }
+  
+  
+  .cards{
+
+      display: grid;
+      grid-template-rows: 50%;
+      grid-auto-flow: column;
+      grid-column-gap: 10.5em;
+      margin: -2% 5% 2%;
+     
+  }
+  
+  
+  .persona{
+      display: flex;
+  }
+  
+  
+  .persona img{
+      padding: 2%;
+  }
+  
+  
+  .persona h5{
+       
+      padding-top: 2.2rem;
+      font-size: 1.5rem;
+  }
+  
+  
+  .estrellitas{
+      position: relative;
+      top: -2rem;
+      display: flex;
+      flex-direction: row;
+      padding-left: 7.5rem;
+      /* font-size: 1rem; */
+      letter-spacing: 0.5rem;
+  }
+  
+  
+  i.fas.fa-star.roja{
+      color: #9C2759;
+  }
+  
+  
+  .cards img{
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      margin-right: 5%;
+      margin-left: 1.5rem;
+      margin-top: 1.5rem;
+  }
+  
+  
+  #caop {
+      display: grid;
+      background-image: url(../img/d_fondo.jpeg);
+      background-size: cover;
+      border-radius: 10px;
+      color: var(--blanco);
+      width: 100%;
+      height: 196%;
+  }
+  
+  .descripcion{
+      position: relative;
+      display: grid;
+      align-items: center;
+      height: 100%;
+      padding-left: 1.5rem;
+      margin-bottom: 3rem;
+    
+      font-size: 1.2rem;
+  }
+  
+  
+  
+  
+  .footer{
+      background-color: #1f1e1e;
+      display: grid;
+      
+      color: white;
+      padding: 2%;
+      margin-top: 13rem;
+  }
+  
+  
+  .footer .text-footer{
+      display: grid;
+      grid-template-columns: 33% 40% 26%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 2%;
+      align-items: center;
+      font-size: 1.2em;
+      height: 100%;
+      width: 100%;
+      font-family: 'Marcellus', serif;
+  }
+  
+  
+  .texto1-footer{
+      width: 67%;
+      margin-left: 1rem;
+  }
+  
+  .texto3-footer{
+      margin-left: 3rem;
+  }
+  
+  .texto2-footer{
+      width: 80%;
+  }
+  
+  
+  .direc{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  
+  .red{
+      font-size: 2rem;
+      letter-spacing: 4px;
+  }
+  
+  
+  
+  #separador{
+      margin-top: 21%;
+  }
+  
+  
+  .iconos p{
+      margin-left: 4%;
+     
+  }
+  
+  .texto1-footer hr{
+              display: none;
+        }
+  
+        .texto2-footer hr{
+              display: none;
+        }
+  
+        #prrafo{
+          font-family: 'roboto', sans-serif;
+          font-size: 3rem;
+          background-color: rgba(0,0,0,0.35);
+          color: white;
+          width:auto;
+          text-align: left;
+          margin-left: -22%;
+        margin-right: -22%;
+        margin-bottom: -3%;
+         
+    }
+    
+    
+    #prrafo p{
+          margin: 2rem;
+          padding-bottom: 1rem;
+          
+    }
+  
+    .carousel {
+      position: relative;
+  }
+    
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* resolucion desktop*/
+    @media screen and (min-width: 1280px)/*la pantala debe ser minimo paraque se aplique*/ {
+      .logo i{
+            display: none;
+      }
+      .text.t hr{
+            display: none;
+      }.text.t2 hr{
+            display: none;
+      }.palabra{
+            font-size: 1.1em;
+      }.features-title{
+            font-size: 2em;
+      }
+      .rurusel{
+            display: none;
+        }
+    }
+
+
+
+
+    
+/*Resolucion media tablet*/
+@media screen and (min-width: 769px) {
+
+      .logo i{
+            display: none;
+      }
+      .menu hr{
+            display: none;
+      }.text.t hr{
+            display: none;
+      }.text.t2 hr{
+            display: none;
+      }.rurusel{
+            display: none;
+      }
+      
+}
+
+
+
+
+
+
+
+/* Resoluciòn Movile*/
+@media screen and (max-width: 768px) {
+      
+      .logo{
+            background-color: var(--negro2);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            padding: 1%;
+        }
+        
+      .logo img{
+            width: 100%;
+          max-width: 200px;
+      }
+      .logo i{
+            color: var(--blanco);
+          font-size: 2rem;
+      }
+      .menu{
+            background-color: rgba(1, 10, 52, 0.838);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;  
+            
+        }
+        .menu hr{
+            width: 100%;
+            background-color: var(--blanco);
+        }
+        .item{
+        padding: 1rem;
+                
+      }
+      nav a{
+            color: var(--blanco);
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover{
+            background-color: #0B3860;
+            width: 100%;
+        }
+        .menu button{
+            padding: 1rem;
+            background-color:transparent;
+            border: none;
+            border-radius: 3px;
+            font-size: 1em;
+            padding: 0.5rem;
+            font-family: 'Marcellus', serif;
+            color: var(--blanco);
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            padding: 1%;
+            background-color: #000;   
+            transition: .5s ease;  
+                  
+        }
+        .menu{
+            display: none;
+            width: 100%;
+            transition: .5s ease;  
+            
+        }
+        nav:hover{
+            padding: 0;
+        }
+        
+        nav:hover .menu{
+            display: flex;
+            
+        }
+        #logohotelia{
+            display: none;
+        }
+        #texto-hijo{
+            width: 100%;
+        }
+        #textosl p{
+            font-size: 2em;
+        }
+
+
+
+        .cards{
+            display: none;
+           }
+        
+        
+        
+        
+        .rurusel{
+            margin: 1.3rem;
+            margin-top: -14em;
+            display: grid;
+            align-items: center;
+        }
+        
+        .personas img{
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+            overflow: hidden;
+            margin-right: 5%;
+            margin-left: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .titulo{
+            display: grid;
+            justify-items: center;
+            background-color: #1f1e1e;
+            align-items: center;
+            color: white;
+            height: 4em;
+            font-size: 2em;
+            margin-top: 3rem;
+        }
+        
+        
+        
+        .titulo h1{
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        
+        .direccion h3{
+            color: var(--negro2);
+            font-size: 1.2em;
+            display: grid;
+            text-align: center;
+            font-weight: 200;
+           
+            
+        }
+        .h5, h5 {
+            top: 2%;
+            display: flex;
+            flex-direction: row;
+            padding-left: 3.5rem;
+           
+           
+            font-size: 1.25rem;
+        }
+        
+        .estrellitas {
+          
+            top: -4rem;
+            display: flex;
+            flex-direction: row;
+            padding-left: 8.5rem;
+            /* font-size: 1rem; */
+            letter-spacing: 0.5rem;
+        }
+        
+  
+  .footer{
+      background-color: #1f1e1e;
+      display: grid;
+      
+      color: white;
+      padding: 2%;
+      margin-top: 3rem;
+  }
+  
+  
+  .footer .text-footer{
+      display: grid;
+      grid-template-columns: auto;
+   
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 13%;
+      align-items: center;
+      font-size: 1.2em;
+      height: 100%;
+      width: 100%;
+      font-family: 'Marcellus', serif;
+  }
+  
+  .text-footer .hr  {
+      display: grid;
+      margin: 1rem 0;
+      color: inherit;
+      border: 0;
+      border-top: 1px solid;
+      opacity: .25;
+  }
+  
+  
+}

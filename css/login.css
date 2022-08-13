@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root{
+      
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background: url(../img/login/fondo.jpeg) no-repeat;
+    background-size: cover;
+    color: white;
+    max-height: 50%;
+    padding-top: 10rem;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: white;
+   
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    
+   
+} #logo img{
+    width:10rem;
+}
+
+p a{
+    text-decoration: none;
+    color: var(--negro2);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem ;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: -1px 1px rgb(153, 153, 153);
+}
+.cajagrande{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url(../img/login/login.jpeg);
+    opacity: 0.95;
+    width: 370px;
+    padding-bottom: 2rem;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}.peque{
+    display: flex;
+    align-items: center;
+}.peque i{
+    background-color: #9C2759;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+}.picky{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    color: #fff;
+   
+}
+
+
+#boton{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--negro2);
+    width: 100%;
+    font-family: 'Marcellus', serif;
+    padding-bottom: 5px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*MEDIAS QUERYYYYYYYYYYYYYYYYYYYYYY*/
+
+
+
+
+@media screen and (min-width: 300px){
+
+  .cajagrande{
+            width: 300px;        
+    }
+    .peque{
+        flex-direction: column;
+    }
+    input{
+        padding-left: 0.8rem;
+    }
+
+}
+@media screen and (min-width: 768px){
+   #boton a{
+        text-decoration: none;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .cajagrande{
+        width: 370px;  
+    } 
+     .peque i{
+        padding: 0.2rem;
+        justify-content: center;
+    }
+   
+    }
+    
