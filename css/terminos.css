@@ -1,49 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root{
-  --azulclaro: #48D6ED;
-  --azuloscuro: #337AB7;
-  --azulnegro: #303342;
-  --negro: #333333;
-  --negro2: #000;
-  --gris: #B2B3B3;
-  --fondo: #FFFEFC;
-  --verdeazul: #157A8A;
-  --Magenta: #9C2759;
-  --blanco: #fff;
-  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-}
- 
-*{
-    margin:0;
-}
-body{
-    font-family: 'Marcellus', serif;
-    font-size: 16px;
-}
- 
-  h1,h2,h3,h4,h5{
-    font-family: 'Marcellus', serif;
-}#grid-container{
-      background: url(/img/regdahs/ciudad.png);
-      background-size: cover;
-      height: 100vh;
-      display: grid;
-      grid-template-rows: repeat(60, 1fr);
-      grid-template-columns: repeat(60, 1fr);
-}.terminos{
-      background-color: var(--blanco);
+
+
+
+.terminosmodal{
+      font-size: 16px;
+      
       grid-column: 17/45 ;
       grid-row: 5/ 55;
       height: 100%;
-}.tittle{
+}
+
+.titulomodal{
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);;
+      color: rgb(0, 0, 0);
       height: 15%;
       font-size: 1.5em;
-      color: var(--blanco);
-}.text{
+   
+}.parrafomodal{
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -51,15 +25,15 @@ body{
       font-size: 1.3em;
       height: 70%;
       
-}#parrafo1{
+}#parrmodal1{
       margin-bottom: 7%;
-}.aceptar button{
+}.acepmodal button{
       color: white;
       background-color: var(--negro2);
       font-size: 1em;
       width: 8em;
       height: 2em;     
-}.aceptar{
+}.acepmodal{
       margin-top: 7%;
       display: flex;
       justify-content: center;
@@ -70,40 +44,40 @@ body{
 }
 /*movil*/
 @media screen and (min-width: 320px) and (max-width: 540px) {
-      .terminos{
+      .terminosmodal{
             background-color: var(--blanco);
             grid-column: 6/58;
             grid-row: 4/ 53;
             height: 100%;
-      }.tittle{
+      }.titulomodal{
             font-size: 1em;
-      }.text{
+      }.parrafomodal{
             font-size: 1.1em;
       }
       
 }
 /*tablet*/
 @media screen and (min-width: 541px) and (max-width: 780px) {
-      .terminos{
+      .terminosmodal{
             background-color: var(--blanco);
             grid-column: 6/58;
             grid-row: 4/ 50;
             height: 100%;
-      }.tittle{
+      }.titulomodal{
             font-size: 1em;
-      }.text{
+      }.parrafomodal{
             font-size: 1.3em;
       }
 }
 @media screen and (min-width: 781px) and (max-width: 1160px) {
-      .terminos{
+      .terminosmodal{
             background-color: var(--blanco);
             grid-column: 6/58;
             grid-row: 4/ 52;
             height: 100%;
-      }.tittle{
+      }.titulomodal{
             font-size: 1em;
-      }.text{
+      }.parrafomodal{
             font-size: 1.5em;
       }
 }

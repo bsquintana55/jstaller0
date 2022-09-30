@@ -101,7 +101,8 @@ p{
     width: 100%;
     font-family: 'Marcellus', serif;
     padding-bottom: 5px;
-    margin-top: 2rem;
+    margin-top: 11px;
+    margin-bottom: 11px;
   
 }
 
@@ -120,8 +121,12 @@ p{
     .peque{
         flex-direction: column;
     }
-    input{
+    input {
         padding-left: 0.8rem;
+        height: 1.8rem;
+        border-radius: 8px;
+        border: none;
+      
     }
 
 }

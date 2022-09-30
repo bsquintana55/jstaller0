@@ -53,9 +53,12 @@
                         <div id="inf">
                               <div class="radio">
                               <label for="fecha">Género</label>
-                              <input type="radio" name="genero">Mujer
-                              <input type="radio" name="genero">Hombre
-                              <input type="radio" name="genero">Otro
+                       
+                                    <input type="radio" id="generoradio" name="genero">Mujer
+                                    <input type="radio" id="generoradio" name="genero">Hombre
+                                    <input type="radio" id="generoradio" name="genero">Otro
+                       
+                             
                               </div>
                         </div> 
                   </div>
@@ -96,21 +99,69 @@
                         </div> 
                         </div>
                 </div>
+                
+                <div class="modalterr">
+                  <button id="abrirModal"> <input type="checkbox">Terminos y Condiciones</button>
+            </div><br>
+
                 <div class="terminos">
-                  <a href="terminos.html"><p> <input type="checkbox"> Términos y condiciones</p></a>
                   <a href="login.html"><button>Ingresar</button></a>
                   <br><p>¿No queres Registrarte?<a href="index.html"> Vuelve al principio </a> </p>
                 </div>
-                
+
+
                 </div>
                 
 
                 
-            </div>
-            
-      </div>
+     
+            <!--modal terminos-->
+            <div id="ventanaModal" class="modal">
+                  <div class="contenidoModal">
+                       
+                        
+                              <div class="terminosmodal">
+                                    
+                                    <span class="cerrarModal"><i class="fa-solid fa-xmark"></i></span>
+                                    <div class="titulomodal">
+                                          <h1>Términos y condiciones</h1>
+                                    </div>
+                                    <div class="parrafomodal">
+                                          <p id="parrmodal1">Estos Términos del Servicio reflejan
+                                                la forma de trabajar de Google como empresa, 
+                                                las leyes por las que nos regimos y determinados
+                                                aspectos que siempre hemos cre'ido que son
+                                                ciertos. Por ello, estos Términos de Servicioayudan
+                                                a definir la relación que tiene Google contigo cuando 
+                                                inteactúas con nuestros servicios. Por ejemplo, estostérminos incluyen las siguientes secciones:
+                  
+                                          </p>
+                                          <p id="parrmodal2">
+                                                Qué puedes esperar de nosotros, donde describe cómo proporcionamos y
+                                                desarrollamos nuestros servicios.
+                                                Los que esperamos de ti, donde se establecen
+                                                
+                                                ciertas reglas para utilizar nuestros servicios.
+                                          </p>
+                                          
+                                          <div class="acepmodal">
+                                                <button id="cerrarModal" class="btn btn-dark" >Aceptar</button>
+                                          </div>
+                                    </div>
+                                    
+                              </div>
+                              
+          
+                        
+                  
+                  
+                  
+                  
+                  </div>
+          
+              </div>
 
-      </section>
-      
+              <script src="./js/modal.js"></script>
+
 </body>
 </html>

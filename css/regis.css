@@ -90,25 +90,30 @@ body{
 }.contra{
     display: flex;
     justify-content: space-around;
-}.terminos{
-    margin-top: 3%;
+}
+.terminos{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-}#inf{
+}
+#inf{
     width: 40%;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-}#inf input, select{
+}
+#inf input, select{
     margin-top: 2%;
     height: 2.2em;
-}.terminos a{
+}
+.terminos a{
     font-size: 1.5em;
     text-decoration: none;
     color: black;
-    margin-bottom: 2%;
-}.terminos button{
+  
+}
+.terminos button{
     font-size: 0.9em;
      width: 8em;
     height: 2em;
@@ -118,7 +123,151 @@ body{
     display: none;
 }
 
+.modalterr{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#abrirModal{
+    font-size: 1.5em;
+    color: #000000;
+    background-color: #0000;
+    border: #10101000;
+}
 
+
+
+
+.modal {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3px;
+    /* top: -63px; */
+    overflow: auto;
+    padding-top: 63px;
+    padding-left: 112px;
+    display: none;
+}
+.contenidoModal {
+    background-color: #ffffff;
+    width: 33%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
+    height: 38rem;
+}
+
+@keyframes animarmodal {
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+#cerrarModal{
+    font-size: 1.5rem;
+    float: right;
+    color: white;
+    margin-right: 2rem;
+}
+
+#cerrarModal:hover{
+    cursor: pointer;
+}
+
+
+#generoradio{
+    width: 20px;
+}
+
+
+
+
+.terminosmodal{
+    font-size: 16px;
+    
+    grid-column: 17/45 ;
+    grid-row: 5/ 55;
+    height: 100%;
+}
+
+.titulomodal{
+    background-color: rgba(7, 64, 102, 0.904);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 15%;
+    font-size: 1.5em;
+}
+
+    .parrafomodal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6%;
+        font-size: 22px;
+        color: #000000;
+        height: 77%;
+    }
+#parrmodal1{
+    margin-bottom: 7%;
+}.acepmodal button{
+    color: white;
+    background-color: var(--negro2);
+    font-size: 1em;
+    width: 8em;
+    height: 2em;     
+}.acepmodal{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+
+}a{
+    text-decoration: none;
+    color: white;
+}
+/*movil*/
+@media screen and (min-width: 320px) and (max-width: 540px) {
+    .terminosmodal{
+          background-color: var(--blanco);
+          grid-column: 6/58;
+          grid-row: 4/ 53;
+          height: 100%;
+    }.titulomodal{
+          font-size: 1em;
+    }.parrafomodal{
+          font-size: 1.1em;
+    }
+    
+}
+/*tablet*/
+@media screen and (min-width: 541px) and (max-width: 780px) {
+    .terminosmodal{
+          background-color: var(--blanco);
+          grid-column: 6/58;
+          grid-row: 4/ 50;
+          height: 100%;
+    }.titulomodal{
+          font-size: 1em;
+    }.parrafomodal{
+          font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 1160px) {
+    .terminosmodal{
+          background-color: var(--blanco);
+          grid-column: 6/58;
+          grid-row: 4/ 52;
+          height: 100%;
+    }.titulomodal{
+          font-size: 1em;
+    }.parrafomodal{
+          font-size: 1.5em;
+    }
+}
 
 /*movil*/
 @media screen and (min-width: 200px) and (max-width: 620px){
